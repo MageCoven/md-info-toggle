@@ -21,7 +21,7 @@ Return
 
 ; Left Mouse -> Temporarily stop holding middle mouse and use left mouse
 LButton::
-    if info {
+    if display_info_overlay {
         Click Up Middle ; Stop holding middle mouse
         Sleep 50 ; Wait a little bit so Master Duel detects it
     }
@@ -30,13 +30,13 @@ LButton::
     KeyWait LButton ; Wait until left mouse is released
     Click Up Left
 
-    if info
+    if display_info_overlay
         Click Down Middle
 Return
 
 ; Left Mouse -> Temporarily stop holding middle mouse and use left mouse
 RButton::
-    if info {
+    if display_info_overlay {
         Click Up Middle ; Stop holding middle mouse
         Sleep 50 ; Wait a little bit so Master Duel detects it
     }
@@ -45,6 +45,6 @@ RButton::
     KeyWait RButton ; Wait until left mouse is released
     Click Up Right
 
-    if info
+    if display_info_overlay
         Click Down Middle
 Return
