@@ -8,7 +8,7 @@ An AutoHotkey script that can toggle the information overlay in Yu-Gi-Oh! Master
 > This requires AutoHotkey being installed and therefor only works on Windows.
 
 -   Download AutoHotkey
--   Download the script (md.ahk)
+-   Download the latest version of the script ([md.ahk](https://github.com/MageCoven/md-info-toggle/releases/latest))
 -   Double click on the script to run it
 -   Done!
 
